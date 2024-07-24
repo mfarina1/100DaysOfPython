@@ -29,4 +29,4 @@ class Sorceror(Creech):
         my_roll = self.d_roll()
         their_roll = creature.d_roll()
 
-        return my_roll >= their_roll
+        return int(my_roll) >= int(their_roll)
